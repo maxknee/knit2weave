@@ -1,9 +1,6 @@
 <p id="notice"><%= notice %></p>
+<h2><%= link_to_unless_current @item.name, @item %></h2>
 
-<p>
-  <strong>Name:</strong>
-  <%= @item.name %>
-</p>
 
 <p>
   <strong>Description:</strong>

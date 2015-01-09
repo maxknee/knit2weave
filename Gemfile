@@ -39,3 +39,9 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem "rack-livereload", :group => :development
+
+group :development do
+  gem 'guard'
+  gem 'guard-livereload', require: false
+end
