@@ -1,0 +1,4 @@
+<h2><%= link_to_unless_current item.name, item %></h2>
+
+<%= simple_format item.description %>
+<%= simple_format image_tag(item.picture_url :width => 800) %>

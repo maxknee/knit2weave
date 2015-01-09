@@ -1,16 +1,5 @@
 <p id="notice"><%= notice %></p>
-<h2><%= link_to_unless_current @item.name, @item %></h2>
-
-
-<p>
-  <strong>Description:</strong>
-  <%= @item.description %>
-</p>
-
-<p>
-  <strong>Picture:</strong>
-  <%= image_tag(@item.picture_url, :width => 600) if @item.picture.present? %>
-</p>
+<%= render :partial => @item %>
 
 <%= link_to 'Edit', edit_item_path(@item) %> |
 <%= link_to 'Back', items_path %>
