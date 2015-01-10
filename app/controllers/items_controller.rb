@@ -1,4 +1,5 @@
 class ItemsController < ApplicationController
+  before_filter :authenticate_user!, :except => [:show, :index]
   before_action :set_item, only: [:show, :edit, :update, :destroy]
 
   # GET /items
@@ -69,6 +70,6 @@ class ItemsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def item_params
-      params.require(:item).permit(:name, :description, :picture)
+      params.require(:item).permit(:name, :description, :picture, :price, :etsylink)
     end
 end

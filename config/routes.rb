@@ -1,7 +1,30 @@
 Rails.application.routes.draw do
-  root :to => redirect('/items')
+
   resources :items
   resources :show
+
+  get 'rails/generate'
+
+  get 'rails/controller'
+
+  get 'rails/static_page'
+
+  get 'about' => 'rails#about'
+
+  get 'welcome/index'
+  root 'welcome#index'
+
+   devise_for :users
+
+   authenticate :user do
+    resources :items, only: [:new, :create, :edit, :update, :destroy]
+  end
+
+  resources :items, only: [:index, :show]
+
+  # authenticated :user do
+  # :items :to => redirect('/items')
+  # end
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
