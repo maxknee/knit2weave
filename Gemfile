@@ -45,3 +45,8 @@ group :development do
   gem 'guard'
   gem 'guard-livereload', require: false
 end
+
+group :development, :test do 
+	gem 'sqlite3'
+end
+
