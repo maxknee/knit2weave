@@ -1,56 +1,58 @@
 <!DOCTYPE html>
 <html>
-	<head>
-	  <title>Knit2weave</title>
-	  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-	  <link rel="stylesheet" href="//railsgirls.com/assets/bootstrap.css">
-	  <link rel="stylesheet" href="//railsgirls.com/assets/bootstrap-theme.css">
-	  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-	  <%= csrf_meta_tags %>
-	</head>
-	<body>
-	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+  <head>
+    <title>Knit2weave</title>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+  <div class="off-canvas-wrap">
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
       <a class="navbar-brand" href="/">Knit2Weave</a>
     </div>
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
         <li class="active"><a href="/items">Items</a></li>
+        <li class="active"><a href="/about">About</a></li>
         <p class="navbar-text pull-right">
-<% if user_signed_in? %>
-  Logged in as <strong><%= current_user.email %></strong>.
-  <%= link_to 'Edit profile', edit_user_registration_path, :class => 'navbar-link' %> |
-  <%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'  %>
-<% else %>
-  <%= link_to "Sign up", new_user_registration_path, :class => 'navbar-link'  %> |
-  <%= link_to "Login", new_user_session_path, :class => 'navbar-link'  %>
-<% end %>
+        <% if user_signed_in? %>
+          Logged in as <strong><%= current_user.email %></strong>.
+          <%= link_to 'Edit profile', edit_user_registration_path, :class => 'navbar-link' %> |
+          <%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'  %>
+        <% else %>
+          <%= link_to "Sign up", new_user_registration_path, :class => 'navbar-link'  %> |
+          <%= link_to "Login", new_user_session_path, :class => 'navbar-link'  %>
+        <% end %>
       </ul>
     </div>
   </div>
 </nav>
 
-		<div class="container">
-			<% if notice %>
-			  <p class="alert alert-success"><%= notice %></p>
-			<% end %>
-			<% if alert %>
-			  <p class="alert alert-danger"><%= alert %></p>
-			<% end %>
-			<%= yield %>
-		</div>
-
-		<footer>
-			<div class="container">
-				Cathy Decherney 2015
-			</div>
-		</footer>
-	</body>
+   <main class="inner-wrap">
+    <div class="container">
+      <% if notice %>
+        <p class="alert alert-success"><%= notice %></p>
+      <% end %>
+      <% if alert %>
+        <p class="alert alert-danger"><%= alert %></p>
+      <% end %>
+      <%= yield %>
+    </div>
+  </main>
+    <footer>
+      <div class="container">
+        Cathy Decherney 2015
+      </div>
+    </footer>
+    </div>
+  </body>
 </html>

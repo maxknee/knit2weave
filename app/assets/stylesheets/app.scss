@@ -1,0 +1,14 @@
+@import "settings";
+@import "foundation";
+
+.navbar {
+	@include side-nav();
+	
+	.li {
+		list-style: none;
+	}
+}
+
+.button {
+	@include icon-bar();
+}

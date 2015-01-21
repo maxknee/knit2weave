@@ -1,0 +1,396 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"p",
+				"p	Tag"
+			],
+			[
+				"text",
+				"text_field"
+			],
+			[
+				"picture",
+				"picture_url"
+			],
+			[
+				"config",
+				"configure"
+			],
+			[
+				"app",
+				"application"
+			],
+			[
+				"ligh",
+				"light-gray"
+			],
+			[
+				"save",
+				"save"
+			],
+			[
+				"back",
+				"background"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 347.0,
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"nsta",
+				"Package Control: Install Package"
+			],
+			[
+				"packs",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/maxknee1/powerapp/knit2weave"
+	],
+	"file_history":
+	[
+		"/Users/maxknee1/powerapp/knit2weave/db/migrate/20150109012702_create_items.rb",
+		"/Users/maxknee1/powerapp/knit2weave/app/controllers/rails_controller.rb",
+		"/Users/maxknee1/powerapp/knit2weave/app/views/rails/about.html.erb",
+		"/Users/maxknee1/powerapp/knit2weave/app/assets/javascripts/items.js.coffee",
+		"/Users/maxknee1/powerapp/knit2weave/app/controllers/welcome_controller.rb",
+		"/Users/maxknee1/powerapp/knit2weave/app/controllers/application_controller.rb",
+		"/Users/maxknee1/powerapp/knit2weave/app/views/welcome/about.html.erb",
+		"/Users/maxknee1/powerapp/knit2weave/app/views/items/_item.html.erb",
+		"/Users/maxknee1/powerapp/knit2weave/app/views/items/_form.html.erb",
+		"/Users/maxknee1/powerapp/knit2weave/app/models/item.rb",
+		"/Users/maxknee1/powerapp/knit2weave/app/views/items/show.html.erb",
+		"/Users/maxknee1/powerapp/knit2weave/config/environments/development.rb",
+		"/Users/maxknee1/powerapp/knit2weave/app/views/layouts/application.html.erb",
+		"/Users/maxknee1/powerapp/knit2weave/bin/spring",
+		"/Users/maxknee1/powerapp/knit2weave/config/application.rb",
+		"/Users/maxknee1/powerapp/knit2weave/app/assets/stylesheets/application.css",
+		"/Users/maxknee1/powerapp/knit2weave/app/controllers/items_controller.rb",
+		"/Users/maxknee1/powerapp/knit2weave/Gemfile",
+		"/Users/maxknee1/powerapp/knit2weave/config/environments/test.rb",
+		"/Users/maxknee1/powerapp/knit2weave/config/environments/production.rb",
+		"/Users/maxknee1/powerapp/knit2weave/public/uploads/tmp/1420768002-97134-7509/resume2013.doc",
+		"/Users/maxknee1/powerapp/knit2weave/public/robots.txt",
+		"/Users/maxknee1/powerapp/knit2weave/db/migrate/20150109011718_create_items.rb",
+		"/Users/maxknee1/powerapp/knit2weave/db/development.sqlite3",
+		"/Users/maxknee1/powerapp/knit2weave/config/database.yml",
+		"/Users/maxknee1/powerapp/knit2weave/Rakefile",
+		"/Users/maxknee1/powerapp/knit2weave/test/fixtures/items.yml",
+		"/Users/maxknee1/powerapp/knit2weave/test/models/item_test.rb",
+		"/Users/maxknee1/powerapp/knit2weave/config/initializers/wrap_parameters.rb",
+		"/Users/maxknee1/powerapp/knit2weave/app/assets/javascripts/application.js",
+		"/Users/maxknee1/powerapp/knit2weave/config/initializers/filter_parameter_logging.rb",
+		"/Users/maxknee1/powerapp/project/railsgirls/Rakefile",
+		"/Users/maxknee1/powerapp/project/railsgirls/config.ru",
+		"/Users/maxknee1/powerapp/project/railsgirls/test/fixtures/ideas.yml",
+		"/Users/maxknee1/powerapp/project/railsgirls/app/models/idea.rb",
+		"/Users/maxknee1/easternstandard/amcol-ethics/sites/all/modules/pmcva/pmcva_newsletter/pmcva_newsletter.tpl.php",
+		"/Users/maxknee1/easternstandard/amcol-ethics/sites/all/modules/pmcva/pmcva_limelight/theme/pmcva-limelight-search-results.tpl.php",
+		"/Users/maxknee1/easternstandard/amcol-ethics/sites/all/modules/pmcva/pmcva_limelight/pmcva_limelight.info",
+		"/Users/maxknee1/easternstandard/amcol-ethics/sites/all/modules/contrib/ctools/page_manager/plugins/cache/page_manager_context.inc",
+		"/Users/maxknee1/easternstandard/amcol-ethics/sites/all/modules/contrib/ctools/page_manager/page_manager.info",
+		"/Users/maxknee1/easternstandard/amcol-ethics/includes/pager.inc",
+		"/Users/maxknee1/easternstandard/amcol-ethics/sites/all/themes/ethics/src/scss/_mixins.scss",
+		"/Users/maxknee1/easternstandard/amcol-ethics/sites/all/themes/ethics/src/scss/_layout.scss",
+		"/Users/maxknee1/easternstandard/amcol-ethics/sites/all/modules/contrib/webform/includes/webform.components.inc",
+		"/Users/maxknee1/easternstandard/amcol-ethics/sites/all/modules/contrib/webform/components/select.inc",
+		"/Users/maxknee1/easternstandard/amcol-ethics/sites/all/themes/ethics/src/js/app/views/resources.js",
+		"/Users/maxknee1/easternstandard/amcol-ethics/sites/all/themes/ethics/.sass-cache/0c1886d288c2e77a877f98ad772a34c01ca255bb/_mixins.scssc",
+		"/Users/maxknee1/easternstandard/amcol-ethics/sites/all/themes/ethics/node_modules/bower/node_modules/mout/object/mixIn.js",
+		"/Users/maxknee1/easternstandard/amcol-ethics/sites/all/modules/contrib/media/modules/media_internet/media_internet.info",
+		"/Users/maxknee1/easternstandard/amcol-ethics/MAINTAINERS.txt",
+		"/Users/maxknee1/easternstandard/amcol-ethics/modules/node/node.css",
+		"/Users/maxknee1/easternstandard/amcol-ethics/sites/all/themes/ethics/src/js/packages/modernizr/feature-detects/network-xhr2.js",
+		"/Users/maxknee1/easternstandard/amcol-ethics/modules/simpletest/tests/error_test.info",
+		"/Users/maxknee1/easternstandard/amcol-ethics/includes/entity.inc",
+		"/Users/maxknee1/easternstandard/amcol-ethics/sites/all/modules/contrib/webform/templates/webform-submission.tpl.php",
+		"/Users/maxknee1/easternstandard/amcol-ethics/sites/all/modules/contrib/webform/templates/webform-form.tpl.php",
+		"/Users/maxknee1/easternstandard/amcol-ethics/sites/all/modules/contrib/webform/css/webform.css",
+		"/Users/maxknee1/easternstandard/amcol-ethics/CHANGELOG.txt",
+		"/Users/maxknee1/easternstandard/amcol-ethics/sites/all/themes/ethics/node_modules/grunt-contrib-clean/docs/clean-options.md",
+		"/Users/maxknee1/easternstandard/amcol-ethics/modules/comment/comment-node-form.js",
+		"/Users/maxknee1/easternstandard/amcol-ethics/modules/contact/contact.info",
+		"/Users/maxknee1/easternstandard/amcol-ethics/sites/all/themes/ethics/node_modules/bower/CONTRIBUTING.md",
+		"/Users/maxknee1/easternstandard/amcol-ethics/sites/all/libraries/ckeditor/_source/core/resourcemanager.js",
+		"/Users/maxknee1/easternstandard/amcol-ethics/README.txt",
+		"/Users/maxknee1/easternstandard/amcol-ethics/web.config",
+		"/Users/maxknee1/easternstandard/amcol-ethics/sites/all/modules/contrib/webform/templates/webform-submission-page.tpl.php",
+		"/Users/maxknee1/easternstandard/amcol-ethics/sites/all/modules/contrib/webform/webform.info",
+		"/Users/maxknee1/easternstandard/amcol-ethics/sites/all/modules/contrib/webform/templates/webform-mail.tpl.php",
+		"/Users/maxknee1/easternstandard/amcol-ethics/sites/all/modules/contrib/webform/templates/webform-confirmation.tpl.php",
+		"/Users/maxknee1/easternstandard/amcol-ethics/sites/all/modules/contrib/webform/templates/webform-calendar.tpl.php",
+		"/Users/maxknee1/easternstandard/amcol-ethics/sites/all/modules/contrib/webform/css/webform-admin.css",
+		"/Users/maxknee1/easternstandard/amcol-ethics/sites/all/themes/ethics/node_modules/grunt-contrib-watch/docs/watch-examples.md",
+		"/Users/maxknee1/easternstandard/amcol-ethics/sites/all/modules/contrib/webform/tests/webform.test",
+		"/Users/maxknee1/easternstandard/amcol-ethics/sites/all/themes/ethics/.sass-cache/0c1886d288c2e77a877f98ad772a34c01ca255bb/_menus.scssc",
+		"/Users/maxknee1/easternstandard/amcol-ethics/includes/menu.inc",
+		"/Users/maxknee1/easternstandard/amcol-ethics/modules/menu/menu.css",
+		"/Users/maxknee1/easternstandard/amcol-ethics/sites/all/modules/contrib/ctools/includes/math-expr.inc",
+		"/Users/maxknee1/easternstandard/amcol-ethics/sites/all/themes/ethics/src/scss/_menus.scss",
+		"/Users/maxknee1/easternstandard/amcol-ethics/sites/all/themes/ethics/src/scss/_blocks.scss",
+		"/Users/maxknee1/Downloads/crossresults_redesign 2/style.css",
+		"/Users/maxknee1/Downloads/crossresults_redesign 2/crossresults.css",
+		"/Users/maxknee1/Downloads/crossresults_redesign 2/crossresults2_files/style.css",
+		"/Users/maxknee1/Downloads/crossresults_redesign 2/mapcontrol.css"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/maxknee1/powerapp/knit2weave",
+			"/Users/maxknee1/easternstandard/amcol-ethics/sites/all/themes/ethics/",
+			"/Users/maxknee1/easternstandard/amcol-ethics/sites/all/themes/ethics/src/\n",
+			"/Users/maxknee1/easternstandard/amcol-ethics/sites/all/themes/ethics/src/scss",
+			"/Users/maxknee1/easternstandard/amcol-ethics/sites/all/themes/ethics/",
+			"/Users/maxknee1/easternstandard/amcol-ethics/sites/all/themes/ethics/src/scss",
+			"/Users/maxknee1/easternstandard/amcol-ethics/sites/all/themes/ethics/",
+			"/Users/maxknee1/easternstandard/amcol-ethics/sites/all/themes/ethics/src/scss",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"name",
+			"%= item.picture %>",
+			"if @item",
+			"body",
+			"form_00",
+			"form_006e",
+			"action/form",
+			"marketing.theamericancollege.edu/action",
+			"content-overlay",
+			"submit",
+			"edit-submit",
+			"submit",
+			"webform",
+			"contact-email",
+			"page-title",
+			";\n",
+			"%;\n",
+			"superfish",
+			"content-overlay",
+			"overlay-info",
+			"overlay-title",
+			"usac",
+			"resultstitle",
+			"headerrow",
+			"search",
+			"popup",
+			"searchform",
+			"#searchinput",
+			"search",
+			"nav",
+			"style",
+			"head",
+			"mapcontrol"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "knit2weave.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"show.",
+				"app/views/items/show.html.erb"
+			],
+			[
+				"application.hm",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"development.rb",
+				"config/environments/development.rb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"item",
+				"app/models/item.rb"
+			],
+			[
+				"applicaio",
+				"app/assets/stylesheets/application.css"
+			],
+			[
+				"form",
+				"app/views/items/_form.html.erb"
+			],
+			[
+				"_form",
+				"railsgirls/app/views/ideas/_form.html.erb"
+			],
+			[
+				"idea",
+				"railsgirls/app/models/idea.rb"
+			],
+			[
+				"pmcvatpl",
+				"sites/all/modules/pmcva/pmcva_newsletter/pmcva_newsletter.tpl.php"
+			],
+			[
+				"mixins",
+				"sites/all/themes/ethics/src/scss/_mixins.scss"
+			],
+			[
+				"resours",
+				"sites/all/themes/ethics/src/js/app/views/resources.js"
+			],
+			[
+				"webformtpl",
+				"sites/all/modules/contrib/webform/templates/webform-submission-page.tpl.php"
+			],
+			[
+				"webform-tpl",
+				"sites/all/modules/contrib/webform/templates/webform-submission.tpl.php"
+			],
+			[
+				"menus",
+				"sites/all/themes/ethics/src/scss/_menus.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 245.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
