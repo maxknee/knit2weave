@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  resources :items
+  
   resources :show
 
   get 'rails/generate'
@@ -14,13 +14,11 @@ Rails.application.routes.draw do
   get 'welcome/index'
   root 'welcome#index'
 
-   devise_for :users
+  devise_for :users
 
-   authenticate :user do
-    resources :items, only: [:new, :create, :edit, :update, :destroy]
-  end
+  resources :items, path: 'admin/items'
 
-  resources :items, only: [:index, :show]
+  #resources :items, only: [:index, :show]
 
   # authenticated :user do
   # :items :to => redirect('/items')
